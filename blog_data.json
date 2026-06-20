@@ -1,0 +1,106 @@
+[
+{
+  "model": "blog.tag",
+  "pk": 1,
+  "fields": {
+    "caption": "Featured"
+  }
+},
+{
+  "model": "blog.tag",
+  "pk": 4,
+  "fields": {
+    "caption": "Programming"
+  }
+},
+{
+  "model": "blog.tag",
+  "pk": 5,
+  "fields": {
+    "caption": "Technology"
+  }
+},
+{
+  "model": "blog.tag",
+  "pk": 6,
+  "fields": {
+    "caption": "Productivity"
+  }
+},
+{
+  "model": "blog.tag",
+  "pk": 7,
+  "fields": {
+    "caption": "Creativity"
+  }
+},
+{
+  "model": "blog.author",
+  "pk": 1,
+  "fields": {
+    "first_name": "Ashmita",
+    "last_name": "Karki",
+    "email_address": "abb@gmail.com"
+  }
+},
+{
+  "model": "blog.author",
+  "pk": 2,
+  "fields": {
+    "first_name": "Esha",
+    "last_name": "Karki",
+    "email_address": "yy@gmail.com"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "How I Stay Consistent While Learning to Code",
+    "excerpt": "Staying consistent while learning to code is challenging, but breaking goals into small steps, building while learning, and accepting confusion as part of the process can make the journey easier.",
+    "image": "posts/consistencyy.jpg",
+    "date": "2026-06-15",
+    "slug": "stay-consitent",
+    "content": "Learning to code is exciting at the beginning, but staying consistent is often the real challenge. Some days everything feels easy and motivating, while other days even small errors can feel discouraging. Over time, I’ve realized that consistency matters far more than short bursts of motivation.\r\n\r\nOne thing that really helped me was breaking my learning into small, manageable goals. Instead of trying to learn everything at once, I focus on one topic at a time — whether it’s backend frameworks, APIs, or frontend styling. Completing even a small task each day helps maintain momentum and builds confidence gradually.\r\n\r\nI also try to learn by building. Instead of only watching tutorials, I apply what I learn immediately through small practice projects or features. This hands-on approach helps me understand concepts more deeply and remember them better.\r\n\r\nAnother important lesson is accepting confusion as part of the process. There are moments when things don’t work, and that’s completely normal. Instead of giving up, I try to break problems into smaller steps and approach them one by one.\r\n\r\nLastly, I remind myself of my long-term goals. Whether it’s improving as a developer or exploring modern backend technologies, having a clear direction helps me stay focused even on slow days.\r\n\r\nConsistency is not about doing everything perfectly every day — it’s about not stopping.",
+    "author": 1,
+    "tags": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "What Makes Programming So Rewarding?",
+    "excerpt": "Programming is more than writing code. It is a creative and problem-solving skill that enables developers to build applications, learn continuously, and create solutions that make a real impact.",
+    "image": "posts/coding.jpg",
+    "date": "2026-06-15",
+    "slug": "programming-is-fun",
+    "content": "Programming is much more than writing code—it is about solving problems and creating solutions that make everyday tasks easier. From simple scripts to full-scale web applications, programming allows ideas to be transformed into functional products that people can use and benefit from.\r\n\r\nOne of the most rewarding aspects of programming is the continuous learning it offers. Every project introduces new challenges, technologies, and concepts that help developers expand their knowledge and improve their problem-solving skills. This constant growth keeps the field exciting and encourages innovation.\r\n\r\nBeyond technical skills, programming also fosters creativity and logical thinking. Whether building a personal project, developing a business solution, or contributing to a larger application, developers have the opportunity to create meaningful tools and make a real impact through technology.",
+    "author": 1,
+    "tags": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Why Developers Need Outdoor Breaks for Creativity",
+    "excerpt": "Taking breaks and going outside helps improve a developer’s creativity, focus, and problem-solving by refreshing the mind and reducing stress.",
+    "image": "posts/woods.jpg",
+    "date": "2026-06-15",
+    "slug": "why-developers-should-step-outside",
+    "content": "Spending long hours in front of a screen is a normal part of a developer’s life. While coding, debugging, and building projects are important, staying inside all the time can slowly affect creativity and focus.\r\n\r\nStepping outside, even for a short time, can make a big difference. Fresh air and a change of environment help clear the mind and reduce mental fatigue. Often, the best ideas come when you are not actively trying to solve a problem.\r\n\r\nGoing outdoors also helps break the cycle of overthinking. When you walk, observe nature, or simply take a break from screens, your brain gets time to reset. This often leads to better problem-solving and new perspectives when you return to coding.\r\n\r\nFor developers, creativity is just as important as technical skills. A refreshed mind can write cleaner code, think of better solutions, and stay more productive for longer periods.\r\n\r\nIn the end, stepping outside is not a distraction — it is a simple way to recharge and come back stronger.",
+    "author": 1,
+    "tags": [
+      6,
+      7
+    ]
+  }
+}
+]
