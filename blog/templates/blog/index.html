@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static%}
+
+{% block title %}
+    My Blog
+{% endblock %}
+
+{% block css_files%} 
+    <link rel="stylesheet" href="{% static "blog/post.css" %}" />
+    <link rel="stylesheet" href="{% static "blog/index.css" %}" />
+{% endblock %}
+ 
+{% block content %}
+
+
+<section id="welcome">
+    <header>
+        <img src="{% static "blog/images/image.png" %}" alt="Ashmita-The Author Of This Blog" />
+        <h1 class="hero-title">Ashmita's<br><em>Tech</em><br>Journal</h1>
+    </header>
+    <p>Hi, I'm Ashmita — a web developer passionate about creating user-friendly applications and continuously expanding my skills. After completing my Django learning journey, I'm currently exploring FastAPI and modern backend development while sharing my projects and experiences along the way.
+</p>
+
+<div class="wave">
+        <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+            <path fill="#fefefe"
+                d="M0,96L80,106.7C160,117,320,139,480,138.7C640,139,800,117,960,101.3C1120,85,1280,75,1360,69.3L1440,64L1440,160L0,160Z">
+            </path>
+        </svg>
+    </div>
+
+</section>
+
+
+
+<section id="latest-posts">
+    <h2>My Latest Thoughts</h2>
+
+    <ul> 
+        {% for post in posts%}
+        {% include "blog/includes/post.html" %}
+        {% endfor %}
+    </ul>
+
+</section>
+
+<section id="what-i-do">
+    <div class="what-content">
+        <div class="section-tag">
+            <div class="rocket-circle">🚀</div>
+            <div class="tag-text">
+                <span class="tag-label">What I Do</span>
+                <h2>I Build, I Learn, I Share</h2>
+            </div>
+        </div>
+
+        <p>
+            From creating web applications with Django to exploring
+            FastAPI, I enjoy turning ideas into useful digital experiences.
+        </p>
+
+        <p>
+            This blog is where I document my learning journey, share
+            projects, and write about the technologies that inspire me.
+        </p>
+
+        
+    </div>
+    
+    <div class="what-image">
+        <img src="{% static 'blog/images/about.png' %}" alt="">
+    </div>
+</section>
+
+{% endblock %}

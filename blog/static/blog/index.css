@@ -1,0 +1,161 @@
+#welcome {
+  background: linear-gradient(to right top, #9764d9, #390281);
+  color: white;
+  padding: 4rem 12% 12rem;
+  position: relative;
+}
+#welcome header {
+  display: flex;
+  align-items: flex-start;
+  margin: 3rem auto;
+}
+
+#welcome img {
+  width: 13rem;
+  height: 13rem;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid white;
+  border-radius: 12px;
+  background-color: #ffe1bf;
+  transform: rotateZ(-5deg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  margin-top: 1rem;
+
+}
+
+#welcome h2 {
+  font-size: 3.5rem;
+  margin: 0 0 0 2rem;
+  color: #e4e4e4;
+  width: 10rem;
+}
+
+#welcome p {
+  color: rgba(252, 255, 255, 0.65);
+  font-size: 1.1rem;
+  font-weight: 450;
+  line-height: 1.8;
+  max-width: 650px;
+  margin-top: -1rem;
+}
+
+
+.wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+}
+
+.wave svg {
+    display: block;
+    width: 100%;
+    height: 190px;
+}
+
+#latest-posts {
+  background: white;
+    width: 80%;
+    margin: -120px auto 0;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
+    position: relative;
+    z-index: 10;
+}
+
+#latest-posts h2 {
+  text-align: center;
+}
+
+#latest-posts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+#latest-posts li {
+  flex: 1;
+}
+
+#what-i-do {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem 8%;
+    background: linear-gradient(135deg, #fff7eb, #ffe8cc);
+    position: relative;
+    overflow: hidden;
+    height: 420px;
+    margin-top: 2rem;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 100%);
+    
+    
+    /* REMOVE max-height — this is cutting off the section */
+}
+.section-tag {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+}
+
+.section-tag .rocket-circle {
+    width: 60px;
+    height: 60px;
+    background: #f5a623;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    flex-shrink: 0;
+}
+
+.section-tag .tag-text {
+    display: flex;
+    flex-direction: column;
+    gap: -1px;
+}
+
+.section-tag .tag-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: #f5a623;
+    text-transform: uppercase;
+    padding-top: 2rem ;
+    
+}
+
+.what-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 520px;
+    padding-left: 2%;
+    margin-left:3px;
+     /* add this */
+}
+
+
+
+ 
+
+.what-image img {
+    width: 1000px;      
+    max-width: 100%;
+    height: 500px;
+    display: block;
+    margin-left: 14%;
+    -webkit-mask-image: radial-gradient(ellipse 80% 80% at center, rgb(255, 254, 254) 20%, transparent 100%);
+    mask-image: radial-gradient(ellipse 80% 80% at center, rgb(168, 88, 88) 20%, transparent 100%);
+}
+
